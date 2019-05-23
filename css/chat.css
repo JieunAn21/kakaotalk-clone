@@ -1,14 +1,10 @@
 .chat-body{
-    padding:0;
+    padding: 10px 0px;
 }
 
     .chat-body .header,
     .chat-body .status-bar {
         padding: 0px 20px;
-    }
-
-    .chat-body .status-bar {
-        padding-top: 10px;
     }
 
 .chat-screen {
@@ -74,12 +70,7 @@
 .message{
     display:flex;
     align-items: flex-start;
-    width : 50%;
     margin-bottom:20px;
-}
-
-.message .message__content{
-    width: 80%;
 }
 
 .incoming-message{
@@ -99,9 +90,12 @@
 
 .message .message__bubble {
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
     padding: 10px 20px;
     border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    display:block;
 }
 
 .incoming-message .message__author{
@@ -111,10 +105,12 @@
     font-size:12px;
 }
 
-.incoming-message .message__bubble{
-    border-bottom-left-radius:0px;
+.incoming-message .message__bubble {
+    border-bottom-left-radius: 0px;
+    background-image: linear-gradient(to right, #283048, #859398);
 }
 
 .sent-message .message__bubble {
     border-bottom-right-radius: 0px;
+    background-image: linear-gradient(to left, #11998e, #38ef7d);
 }
