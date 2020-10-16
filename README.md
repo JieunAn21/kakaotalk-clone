@@ -1,2 +1,2 @@
 # kakaotalk-clone
-카카오톡 클론 코딩
+https://jieunan21.github.io/kakaotalk-clone/
